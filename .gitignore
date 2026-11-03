@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Test cache ---
+.pytest_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- SQLite databases (runtime data, not source) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Backups ---
+backups/
+
+# --- Environment / secrets ---
+.env
+
+# --- Logs ---
+*.log
+
+# --- IDEs ---
+.idea/
+
+# Editor: exclude .vscode/ but keep an optional shared settings template
+.vscode/*
+!.vscode/settings.json

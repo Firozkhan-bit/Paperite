@@ -1,0 +1,7 @@
+# Paperite -- Python dependencies
+#
+# Phase 1 (Foundation): GUI runtime + test harness only.
+# Export dependencies (openpyxl, ReportLab) are intentionally deferred to the
+# exports phase and must NOT be added here yet.
+PySide6==6.8.1.1
+pytest==8.3.4
